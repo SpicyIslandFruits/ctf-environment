@@ -1,0 +1,5 @@
+version: '3'
+services:
+  environment:
+    build: .
+    container_name: ctf-environment
