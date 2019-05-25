@@ -67,9 +67,11 @@ alias pacrm='apt purge'
 alias pacf='apt search'
 alias pacq='dpkg --list'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias angr='source $HOME:/angr/bin/activate'
-alias run-ghidra='~/bin/ghidra/ghidraRun'
+alias angr='source ~/angr/bin/activate'
+alias ghidra='~/bin/ghidra/ghidraRun'
+alias cutter='cutter --appimage-extract-and-run'
+alias gef='gdb -ix ~/.gdbinit-gef.py'
+alias gdb-peda='gdb -ix ~/peda/peda.py'
 
 # custom executables paths
 export PATH=$PATH:$HOME/bin
-export PATH=$PATH:$HOME/bin/MyScripts

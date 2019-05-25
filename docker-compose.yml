@@ -3,4 +3,3 @@ services:
   environment:
     build: .
     container_name: ctf-environment
-    privileged: true
