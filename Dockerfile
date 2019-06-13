@@ -25,7 +25,7 @@ RUN bash -c 'source .bashrc' \
     && ldconfig \
     && wget https://github.com/hugsy/gef/raw/master/gef.py -O ~/.gdbinit-gef.py \
     && wget https://ghidra-sre.org/ghidra_9.0.4_PUBLIC_20190516.zip -O /root/ghidra.zip \
-    && unzip /root/ghidra.zip -d /root && mv /root/ghidra_9.0.4 /root/ghidra && mv /root/ghidra /root/bin/ && rm /root/ghidra* \
+    && unzip /root/ghidra.zip -d /root && mv /root/ghidra_9.0.4 /root/ghidra && mv /root/ghidra /root/bin && rm /root/ghidra* \
     && git clone https://github.com/longld/peda.git /root/peda \
     && apt-get autoremove && apt-get clean
 

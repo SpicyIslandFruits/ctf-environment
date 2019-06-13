@@ -5,7 +5,8 @@ help:
 
 # Build the container
 build: ## Use 'make build' to build the container
-	docker-compose build
+	mkdir ./root/bin \
+	&& docker-compose build
 
 run: ## Use 'make run' to run container
 	xhost +local: \
