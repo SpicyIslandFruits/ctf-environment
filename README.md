@@ -3,3 +3,5 @@
 First you need a build environment and docker and xhost(to run gui application inside container).  
 So you will want to install build-essentials docker-compose docker xhost.    
 Then 'make build' to build image and 'make run' to create the container.  
+
+TODO: specify image name (repository name) to let makefile work properly
