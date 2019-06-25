@@ -17,7 +17,7 @@ run: ## Use 'make run' to run container
 		--security-opt seccomp=unconfined \
 		-e DISPLAY=$$DISPLAY \
 		-v /tmp/.X11-unix/:/tmp/.X11-unix/ \
-		ctf_environment
+		spicyisland/ctf-environment
 
 start: ## Use 'make start' to start container
 	xhost +local: \
